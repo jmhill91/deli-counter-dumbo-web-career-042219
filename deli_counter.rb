@@ -11,5 +11,5 @@ end
 end
 def take_a_number(line,name)
   line<< name
-  puts "Welcone #{name} you"
+  puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
