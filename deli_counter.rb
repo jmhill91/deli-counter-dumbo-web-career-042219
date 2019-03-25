@@ -22,3 +22,4 @@ def now_serving(line)
     puts "The line is empty."
     
   end
+end
