@@ -19,4 +19,4 @@ end
 
 def now_serving(line)
   if line.length ==0 
-    
+    puts "The line is empty."
