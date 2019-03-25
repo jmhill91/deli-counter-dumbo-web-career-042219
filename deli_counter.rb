@@ -4,7 +4,7 @@ def line(arr)
     puts "The line is currently empty."
     elsif arr.length != 0 
     arr.each_with_index do |name, index|
-   line += "#{index_to_i+1}. #{name}"
+   line += "#{index.to_i+1}. #{name}"
     end
     puts line
 end
