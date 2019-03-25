@@ -1,11 +1,10 @@
 def line(arr)
-  count=1
   line=["The line is currently: "]
   if arr.length  == 0 
     puts "The line is currently empty."
     elsif arr.length != 0 
-    arr.each do 
-   line.push( "#{count}. #{i}")
+    arr.each_with_index do |name, index|
+   line += "#{index_to_i+1}. #{name}"
     end
     puts line
 end
