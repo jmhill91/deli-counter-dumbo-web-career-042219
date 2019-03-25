@@ -10,6 +10,6 @@ def line(arr)
 end
 end
 def take_a_number(line,name)
-  line<< name
+  line.push(name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
