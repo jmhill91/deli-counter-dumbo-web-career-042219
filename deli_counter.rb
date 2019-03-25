@@ -1,5 +1,5 @@
 def line(arr)
-  line=["The line is currently: "]
+  line="The line is currently: "
   if arr.length  == 0 
     puts "The line is currently empty."
     elsif arr.length != 0 
